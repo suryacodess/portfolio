@@ -170,7 +170,7 @@ p {
       }
 
       .btns {
-        margin-top: 20px;
+        margin-top: 30px;
         .btn {
           background: red;
           color: #fff;
@@ -178,10 +178,10 @@ p {
           outline: none;
           cursor: pointer;
           padding: 10px 25px;
-          margin: 0 10px;
           font-size: 14px;
+          margin: 0 10px;
           box-shadow: 4px 4px 1px white;
-          margin: 10px;
+          text-decoration: none;
         }
       }
     }
@@ -657,9 +657,6 @@ p {
       .home-text {
         h1 {
           font-size: 4rem;
-        }
-        p {
-          font-size: 0.8rem;
         }
       }
     }
