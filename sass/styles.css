@@ -389,6 +389,9 @@ p {
   color: #fff;
   font-size: 16px;
 }
+.container .projects .projects-inner .projects-tab .project-tab .description .btns button a i {
+  font-size: 20px;
+}
 .container .projects .projects-inner .projects-tab .project-tab .description p {
   padding: 10px 0;
 }
