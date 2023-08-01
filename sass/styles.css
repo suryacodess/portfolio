@@ -74,6 +74,9 @@ p {
 .container {
   width: 100%;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .container .divider {
   max-width: 90%;
@@ -83,15 +86,18 @@ p {
   background: #fff;
 }
 .container .header {
+  max-width: 1200px;
   width: 100%;
   height: 60px;
+  margin: auto;
   padding: 0 20px;
   display: flex;
   background: red;
   color: #fff;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
+  position: sticky;
+  top: 0;
   z-index: 999;
 }
 .container .header .header-title h1 {
@@ -132,7 +138,9 @@ p {
   color: #fff;
 }
 .container .home {
+  max-width: 1200px;
   height: 100vh;
+  margin: auto;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -173,8 +181,10 @@ p {
   text-decoration: none;
 }
 .container .about {
+  max-width: 1200px;
   width: 100%;
   min-height: 100vh;
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -267,6 +277,8 @@ p {
   font-size: 22px;
 }
 .container .image-gallery {
+  max-width: 1200px;
+  margin: auto;
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -324,8 +336,10 @@ p {
   position: relative;
 }
 .container .projects {
-  min-height: 100vh;
+  max-width: 1200px;
   width: 100%;
+  margin: auto;
+  min-height: 100vh;
   padding: 70px 0 30px 0;
 }
 .container .projects .projects-inner {
@@ -397,8 +411,10 @@ p {
   padding: 10px 0;
 }
 .container .contact {
-  min-height: 100vh;
+  max-width: 1200px;
   width: 100%;
+  margin: auto;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -497,8 +513,10 @@ p {
   transform: scale(1.2);
 }
 .container .footer {
-  height: 120px;
+  max-width: 1200px;
   width: 100%;
+  margin: auto;
+  height: 120px;
   padding: 70px 0 30px 0;
 }
 .container .footer .footer-inner {
